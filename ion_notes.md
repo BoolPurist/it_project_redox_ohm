@@ -17,12 +17,11 @@
 - Improve error message for referencing undefined variable 
   "ion: expansion error: Variable does not exist" 
   Better: 1. Show line in which the erro occures
-        2. Show name of undefined variable
+          2. Show name of undefined variable
 - General it would be nice if ion errors messages of scripts would show line number to user.
   Eases debugging
-- Implement keybindings in liner crate to enable it ion.
-- Something like .bashrc as start up script. Either missing mentioned in documentation or not 
-  implemented yet.
+- Implement keybindings in redex crate [liner](https://gitlab.redox-os.org/redox-os/liner) crate to enable it ink ion.
+- Fix ci on gitlab. Certain tasks error out.
 - Make it avaible as packages in fedora
 - Make it avaible as packages in arch
 
