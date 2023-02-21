@@ -23,4 +23,4 @@
 - Fix ci on gitlab. Certain tasks error out.
 - Make it avaible as packages in fedora
 - Make it avaible as packages in arch
-
+- Implement set -o pipefail. See [issue](https://gitlab.redox-os.org/redox-os/ion/-/issues/1005)
