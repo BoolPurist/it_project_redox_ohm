@@ -4,7 +4,8 @@ We consider 4 options:
 
 - Working on the [ion shell](https://gitlab.redox-os.org/redox-os/ion)
   - [Notes](./ion_notes.md)
-- Working on [rlib](https://gitlab.redox-os.org/redox-os/relibc)
+- Working on [relibc](https://gitlab.redox-os.org/redox-os/relibc)
+  - [Notes](./relibc_notes.md)
 - Working on [pkgutils](https://gitlab.redox-os.org/redox-os/pkgutils)
 - Porting a rust application/library to redox os
 
