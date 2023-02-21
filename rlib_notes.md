@@ -1,5 +1,11 @@
 # Notes about rlib
 
+This project require programming skills in rust and to certain degree c.
+
+When comes to implement functions for relibc
+- One has to write c code to test the rust implementation. 
+- Read documentation or even read source code of c functions which are to be implemented.
+
 ## Possible Todos
 
 - Ci pipeline is failing right now on every commit.
