@@ -1,12 +1,12 @@
-# What could be accomplished so far
+# What has been be accomplished so far
 
 Records pull requests made by us in the redox os project.
-Useful for later creating presentation and report. This pull requests can server as code snippets, 
+Useful for later creating presentation and report. These pull requests can serve as code snippets, 
 inspiration, examples, etc.
 
 ## BoolPurist 
 
-### Opened pull requets
+### Opened pull requests
 
 - [fix: removed/ignore tests/fn-root-vars.out as it is recreated by run_example.sh every time](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1236)
 
