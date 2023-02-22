@@ -18,5 +18,6 @@ inspiration, examples, etc.
 
 ### Opened Issues
 
+- [Ci is broken with current base image redoxer/redoxer from docker hub](https://gitlab.redox-os.org/redox-os/ion/-/issues/1020)
 - [Bug: ion manual is not updated automatically after a commit](https://gitlab.redox-os.org/redox-os/ion/-/issues/1019)
 - [Make tests does not compile with indented toolchain 1.53.0](https://gitlab.redox-os.org/redox-os/ion/-/issues/1018)
