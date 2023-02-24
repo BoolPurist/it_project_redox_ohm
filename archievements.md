@@ -9,6 +9,7 @@ inspiration, examples, etc.
 ### Opened pull requests
 
 - [fix: removed/ignore tests/fn-root-vars.out as it is recreated by run_example.sh every time](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1236)
+- [fix: bumped version of redox_installer and fixed compile errors for install.](https://gitlab.redox-os.org/redox-os/redoxer/-/merge_requests/9)
 
 ### Merged pull requets
 
