@@ -8,6 +8,7 @@ inspiration, examples, etc.
 
 ### Opened pull requests
 
+- [fix: partial CI fix and fix compiler error for "make tests"](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests)
 - [fix: removed/ignore tests/fn-root-vars.out as it is recreated by run_example.sh every time](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1236)
 
 ### Merged pull requets
