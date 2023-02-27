@@ -4,7 +4,7 @@ Records pull requests made by us in the redox os project.
 Useful for later creating presentation and report. These pull requests can serve as code snippets, 
 inspiration, examples, etc.
 
-## BoolPurist 
+## BoolPurist aka Florian Naumann
 
 ### Opened pull requests
 
