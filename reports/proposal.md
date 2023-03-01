@@ -13,9 +13,9 @@ Link zu Coreutils https://gitlab.redox-os.org/redox-os/coreutils .
 ### Was ist Ion 
 
 Ion ist eine Shell, die es erlaubt, Commandos in der eigenen Ion Skriptsprache auszuführen.
-Ion kann nicht nur zum Scripting verwendet werden sondern 
+Ion kann nicht nur zum Scripten verwendet werden sondern 
 auch in einer interaktiven Session innerhalb eines Terminal Emulators genutzt werden.
-Es git auch ein online Manual unter https://doc.redox-os.org/ion-manual/ zu Ion.
+Es gibt auch ein online Manual unter https://doc.redox-os.org/ion-manual/ zu Ion.
 
 ### Warum Ion Shell
 
@@ -40,6 +40,9 @@ auch für den Bericht interessant sein.
     Vermutlich auch für Strings.
     Scheint so, als wurde es immer noch nicht von der Person, die es vorgeschlagen hat, implementiert 
 - Umsetzung der Polish Notation und intersect builtin unter https://doc.redox-os.org/ion-manual/control/01-conditionals.html .
+- Fehler Meldungen in Ion sollten auch die Zeile mit angeben, wo der Fehler gefunden wurde. 
+- Wenn eine noch nicht deklarierte Variable referenziert wird, 
+  sollten auch der Name der nicht vorhandene Variable angezeigt werden in der Fehler Meldung.
 
 ### Was bisher bei der Einarbeitung in Redox Os schon rauskam
 
