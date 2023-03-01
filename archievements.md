@@ -23,8 +23,11 @@ inspiration, examples, etc.
 
 - [Show line number in error message where an error occures](https://gitlab.redox-os.org/redox-os/ion/-/issues/1022)
 - [Spaces between opening parentheses of method and 1. argument raises error.](https://gitlab.redox-os.org/redox-os/ion/-/issues/1021)
-- [Build docker image of Redoxer and publish new version to dockerhub.](https://gitlab.redox-os.org/redox-os/redoxer/-/issues/7)
-- [Ci is broken with current base image redoxer/redoxer from docker hub](https://gitlab.redox-os.org/redox-os/ion/-/issues/1020)
 - [Bug: ion manual is not updated automatically after a commit](https://gitlab.redox-os.org/redox-os/ion/-/issues/1019)
+
+### Closed Issues
+
+- [Ci is broken with current base image redoxer/redoxer from docker hub](https://gitlab.redox-os.org/redox-os/ion/-/issues/1020)
+- [Build docker image of Redoxer and publish new version to dockerhub.](https://gitlab.redox-os.org/redox-os/redoxer/-/issues/7)
 - [Make tests does not compile with indented toolchain 1.53.0](https://gitlab.redox-os.org/redox-os/ion/-/issues/1018)
 
