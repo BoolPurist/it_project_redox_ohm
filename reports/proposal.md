@@ -113,7 +113,7 @@ Das Testing möchte ich mir vornehmen, da ich leider noch nicht viel Unit Testin
   Ich weiß nicht, ob das im Endeffekt technisch möglich ist, aber da wir in relibc (bei den meisten Programmen) auch den Memory Allocator kontrollieren, könnte theoretisch auch bei den unchecked C-Funtionen - im Fall, dass Heap-allokierte Pointer verwendet werden - die Bounds aus der Heap-Struktur des Allocators gelesen und damit durch die Hintertür Bounds Checking eingeführt werden. Dies schließt bei Legacy-Code ganze Fehlerklassen aus.
 
 
-## Phillip Wagener
+## Philipp Wagener
 
 ### Motivation
 
