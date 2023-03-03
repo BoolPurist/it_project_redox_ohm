@@ -84,28 +84,42 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 
 ## Phillip Wagener
 
-Vor allem möchte ich im mdBook meinen Teil zum Projekt beitragen.
+### Motivation
+Vor allem möchte ich im RedoxOS Book meinen Teil zum Projekt beitragen. Dieses wird aus Markdown-Dateien mittels [mdBook](https://gitlab.redox-os.org/redox-os/mdBook)
 Link zum Repository: (https://gitlab.redox-os.org/redox-os/book)
 
-Zudem finde ich das Reposotory von extrautils sehr interessant.
-Link zum Repository: (https://gitlab.redox-os.org/redox-os/extrautils).
+
+Zudem finde ich das Repository von coreutils/extrautils sehr interessant.
+Links zum Repository: (https://gitlab.redox-os.org/redox-os/coreutils) (https://gitlab.redox-os.org/redox-os/extrautils)
 Hier werde ich mir einige ToDos raussuchen, um diese umzusetzen.
 
-### Was ist mdBook
+#### Was ist mdBook
 
-mdBook ist ein Tool, geschrieben in Rust, um Bücher bzw. Dokumentationen mit Hilfe von Markdown-Files zu schreiben.
+mdBook ist ein Tool von Rust, um Bücher bzw. Dokumentationen über Markdown-Files zu schreiben.
 
-### Warum mdBook
+#### Warum RedoxOS Book
+
 - Hier befindet sich die Dokumentation von Redox Os, welche sehr wichtig für das Verständnis und die Weiterarbeit am Projekt ist.
+- Gerade an dieser Stelle wird in vielen Open Source-Projekten gerne Zeit gespart; dies rächt sich aber zuverlässig mit steigendem Projektalter (siehe https://en.wikipedia.org/wiki/Technical_debt).
 
+Daher werde ich meine initialen Anstrengunge darauf konzentrieren, am Buch nachzubessern.
 
-### Konkrete Ziele im mdBook 
+#### Was sind extra/coreutils
+- https://www.gnu.org/software/coreutils/
+- GNU coreutils sind eine Sammlung an Kommandozeilen-Helfern
+- RedoxOS orientiert sich allerdings eher an den BSD coreutils (FIXME add link), welche als Paradigma BSD-typisch deutlich minimaler entwickelt werden
+- RedoxOS extrautils stellen eine Erweiterung der Utilities-Sammlung durch beliebte und nützliche Tools, die allerdings nicht zu den coreutils gehören, dar.
+- FIXME ra1n
+
+#### Warum extra/coreutils
+
+### Konkrete Ziele
+#### RedoxOS Book
 
 Aufgrund der vielfältigkeit an Aufgaben werde ich mich
-1. Auf die Übersetzung der bisherigen Kapitel spezialisieren
-2. Neue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
-
+1. Auf die Übersetzung der bisherigen Kapitel spezialisieren, und
+2. Mich auf eue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
 
 ### Aktuelle Ergebnisse
 
-Zurzeit sind noch keine Ergebnisse, aufgrund eines Sterbefalls in der Familie, vorzuweisen.
+Zurzeit sind noch keine Ergebnisse vorzuweisen. Dies geschah aufgrund eines Todesfalls in der Familie und wird gebeten, zu entschuldigen.
