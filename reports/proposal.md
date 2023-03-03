@@ -82,7 +82,38 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 
 ## Florian Meißner
 
-## Philipp Wagener
+### Motivation
+Ich möchte auf der [relibc](https://gitlab.redox-os.org/redox-os/relibc), der `libc`-Implementierung in Redox arbeiten. Dort habe ich mir vor allem das Testen ins Auge gefasst.
+
+Weiterhin möchte ich kleinere Verbesserungen an [core](https://gitlab.redox-os.org/redox-os/coreutils)/[extrautils](https://gitlab.redox-os.org/redox-os/extrautils) vornehmen. Auch halte ich eine spätere Kollaboration mit Florian Naumann an Ion für größere Features nicht für ausgeschlossen.
+
+#### Was ist relibc
+`relibc` hat es sich als Ziel gesetzt, eine portable POSIX C standard library in Rust zu sein. (https://gitlab.redox-os.org/redox-os/relibc/-/blob/master/README.md) Die Implementierung in Rust sorgt in der Theorie für eine deutlich höhere Typ- und Speichersicherheit. Bindings (= C-Header) werden dann über das Rust-Crate [cbindgen](https://github.com/eqrion/cbindgen) automatisch aus der Rust-API generiert.
+
+#### Warum relibc
+Ich habe Vorerfahrung in C- und C++-Entwicklung und möchte diese im Rahmen des Projekts einbringen. Außerdem interessiert mich die Möglichkeit einer robusteren libc und die Schnittstelle Rust <-> C.
+
+Das Testing möchte ich mir vornehmen, da ich leider noch nicht viel Unit Testing-Erfahrung gesammelt habe, aber (in Rücksprache mit meinen Kollegen) die vorhandene Testsuite für eher dürftig halte und die Verbesserung dieser für das Projekt als sehr sinnvoll erachte. 
+
+#### Was sind core/extrautils
+
+### Konkrete Ziele
+
+#### relibc
+
+- **Erweiterungen der aktuellen Unit Tests direkt im Repo**
+  Leider werden die fehlenden Tests noch nicht ausführlich als Issue getrackt. Ich werde daher die generierten C-Header mit den vorhandenen Test Cases abgleichen (`grep`) und Mängel notieren.
+- **Fuzzing der Library auf Rust-Ebene (und evtl. auch auf C-Ebene)**
+  Fuzzing stellt eine gute Addition zu Tests da, um Bugs zu finden, und ist auch von Seiten des Project Owners gewünscht. (https://gitlab.redox-os.org/redox-os/relibc/-/issues/79)
+- **Betrachten der Möglichkeit, eine existierende `libc`-Testsuite zu adaptieren**
+  `glibc`, `musl libc`, `LLVM libc` haben alle schon das Problem einer Testsuite gelöst. Die Frage bleibt, ob diese sich sauber adaptieren lassen, und ob dadurch, dass `relibc` durch seine Minimalistik viele POSIX-Erweiterungen wohl nicht implementieren wird, nicht zu viele False Negatives auftreten. Auch für dieses Projekt gab es Zuspruch im offiziellen Chat.
+
+##### Mutigeres Ziel
+- **Memory safety in classic non-checking c functions like gets, strcmp… via communication with the allocator**
+  Ich weiß nicht, ob das im Endeffekt technisch möglich ist, aber da wir in relibc (bei den meisten Programmen) auch den Memory Allocator kontrollieren, könnte theoretisch auch bei den unchecked C-Funtionen - im Fall, dass Heap-allokierte Pointer verwendet werden - die Bounds aus der Heap-Struktur des Allocators gelesen und damit durch die Hintertür Bounds Checking eingeführt werden. Dies schließt bei Legacy-Code ganze Fehlerklassen aus.
+
+
+## Phillip Wagener
 
 ### Motivation
 
