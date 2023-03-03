@@ -82,7 +82,7 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 
 ## Florian Meißner
 
-## Phillip Wagener
+## Philipp Wagener
 
 ### Motivation
 Vor allem möchte ich im RedoxOS Book meinen Teil zum Projekt beitragen. Dieses wird aus Markdown-Dateien mittels [mdBook](https://gitlab.redox-os.org/redox-os/mdBook)
@@ -102,21 +102,20 @@ mdBook ist ein Tool von Rust, um Bücher bzw. Dokumentationen über Markdown-Fil
 - Hier befindet sich die Dokumentation von Redox Os, welche sehr wichtig für das Verständnis und die Weiterarbeit am Projekt ist.
 - Gerade an dieser Stelle wird in vielen Open Source-Projekten gerne Zeit gespart; dies rächt sich aber zuverlässig mit steigendem Projektalter (siehe https://en.wikipedia.org/wiki/Technical_debt).
 
-Daher werde ich meine initialen Anstrengunge darauf konzentrieren, am Buch nachzubessern.
+Daher werde ich meine initialen Anstrengungen darauf konzentrieren, am Buch nachzubessern.
 
 #### Was sind extra/coreutils
 - https://www.gnu.org/software/coreutils/
 - GNU coreutils sind eine Sammlung an Kommandozeilen-Helfern
 - RedoxOS orientiert sich allerdings eher an den BSD coreutils (FIXME add link), welche als Paradigma BSD-typisch deutlich minimaler entwickelt werden
 - RedoxOS extrautils stellen eine Erweiterung der Utilities-Sammlung durch beliebte und nützliche Tools, die allerdings nicht zu den coreutils gehören, dar.
-- FIXME ra1n
 
 #### Warum extra/coreutils
 
 ### Konkrete Ziele
 #### RedoxOS Book
 
-Aufgrund der vielfältigkeit an Aufgaben werde ich mich
+Aufgrund der Vielfältigkeit an Aufgaben werde ich mich
 1. Auf die Übersetzung der bisherigen Kapitel spezialisieren, und
 2. Mich auf eue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
 
