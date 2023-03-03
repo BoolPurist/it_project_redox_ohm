@@ -8,6 +8,8 @@ inspiration, examples, etc.
 
 ### Opened pull requests
 
+- [fix(redox): file:/ does not break expansion in ion shell anymore](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1239)
+
 ### Merged pull requets
 
 - [fix: partial CI fix and fix compiler error for "make tests"](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests)
