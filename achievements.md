@@ -1,6 +1,6 @@
 # What has been be accomplished so far
 
-Records pull requests made by us in the redox os project.
+Records pull requests made by us in the various RedoxOS project.
 Useful for later creating presentation and report. These pull requests can serve as code snippets, 
 inspiration, examples, etc.
 
@@ -10,7 +10,7 @@ inspiration, examples, etc.
 
 - [fix(redox): file:/ does not break expansion in ion shell anymore](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1239)
 
-### Merged pull requets
+### Merged pull requests
 
 - [fix: partial CI fix and fix compiler error for "make tests"](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests)
 - [implementation of subst method for arrays](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1238)
