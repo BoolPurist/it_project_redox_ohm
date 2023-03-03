@@ -121,7 +121,7 @@ Daher werde ich meine initialen Anstrengungen darauf konzentrieren, am Buch nach
 
 Aufgrund der Vielfältigkeit an Aufgaben werde ich mich
 1. Auf die Übersetzung der bisherigen Kapitel spezialisieren, und
-2. Mich auf eue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
+2. Mich auf neue Kapitel wie zum Beispiel das Filesystem und Speicherverwaltung in Redox konzentrieren
 
 #### extra/coreutils
 
