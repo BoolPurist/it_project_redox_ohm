@@ -109,10 +109,12 @@ Daher werde ich meine initialen Anstrengungen darauf konzentrieren, am Buch nach
 
 - https://www.gnu.org/software/coreutils/
 - GNU coreutils sind eine Sammlung an Kommandozeilen-Helfern
-- RedoxOS orientiert sich allerdings eher an den BSD coreutils (FIXME add link), welche als Paradigma BSD-typisch deutlich minimaler entwickelt werden
+- RedoxOS orientiert sich allerdings eher an den BSD coreutils, welche als Paradigma BSD-typisch deutlich minimaler entwickelt werden
 - RedoxOS extrautils stellen eine Erweiterung der Utilities-Sammlung durch beliebte und nützliche Tools, die allerdings nicht zu den coreutils gehören, dar.
 
 #### Warum extra/coreutils
+
+- extra/coreutils sind nützliche Helfer, welche meiner Meinung nach mit eingebunden werden sollten.
 
 ### Konkrete Ziele
 #### RedoxOS Book
@@ -120,6 +122,12 @@ Daher werde ich meine initialen Anstrengungen darauf konzentrieren, am Buch nach
 Aufgrund der Vielfältigkeit an Aufgaben werde ich mich
 1. Auf die Übersetzung der bisherigen Kapitel spezialisieren, und
 2. Mich auf eue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
+
+#### extra/coreutils
+
+1. Für den Anfang werde ich mir diverse man-Pages ansehen und schauen wie die Kommandos funktionieren.
+2. Zudem werde ich diese Kommandos unter Linux testen und die Unterschiede herausarbeiten.
+3. Hierdurch können neue Aufgaben wie zum Beispiel Verbesserungen entstehen, welche ich dann umsetzen werde.
 
 ### Aktuelle Ergebnisse
 
