@@ -56,3 +56,30 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 ## Florian Meißner
 
 ## Phillip Wagener
+Vor allem möchte ich im mdBook meinen Teil zum Projekt beitragen.
+Link zum Repository: (https://gitlab.redox-os.org/redox-os/book)
+
+
+Zudem finde ich das Reposotory von extrautils sehr interessant.
+Link zum Repository: (https://gitlab.redox-os.org/redox-os/extrautils)
+hier werde ich mir einige ToDos raussuchen, um diese umzusetzen.
+
+### Was ist mdBook
+
+mdBook ist ein Tool von Rust um Bücher bzw. Dokumentationen über Markdown-Files zu schreiben.
+
+
+### Warum mdBook
+- Hier befindet sich die Dokumentation von Redox Os, welche sehr wichtig für das Verständnis und die Weiterarbeit am Projekt ist.
+
+
+### Konkrete Ziele im mdBook 
+
+Aufgrund der vielfältigkeit an Aufgaben werde ich mich
+1. Auf die Übersetzung der bisherigen Kapitel spezialisieren
+2. Neue Kapitel wie zum Beispiel über das Filesystem und Speicherverwaltung in Redox konzentrieren
+
+
+### Aktuelle Ergebnisse
+
+Zurzeit sind noch keine Ergebnisse, aufgrund eines Sterbefalls in der Familie, vorzuweisen.
