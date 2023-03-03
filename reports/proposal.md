@@ -85,9 +85,10 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 ## Philipp Wagener
 
 ### Motivation
-Vor allem möchte ich im RedoxOS Book meinen Teil zum Projekt beitragen. Dieses wird aus Markdown-Dateien mittels [mdBook](https://gitlab.redox-os.org/redox-os/mdBook)
-Link zum Repository: (https://gitlab.redox-os.org/redox-os/book)
 
+Vor allem möchte ich im RedoxOS Book meinen Teil zum Projekt beitragen. 
+Dieses wird aus Markdown-Dateien mittels [mdBook](https://gitlab.redox-os.org/redox-os/mdBook)
+Link zum Repository: (https://gitlab.redox-os.org/redox-os/book)
 
 Zudem finde ich das Repository von coreutils/extrautils sehr interessant.
 Links zum Repository: (https://gitlab.redox-os.org/redox-os/coreutils) (https://gitlab.redox-os.org/redox-os/extrautils)
@@ -95,16 +96,17 @@ Hier werde ich mir einige ToDos raussuchen, um diese umzusetzen.
 
 #### Was ist mdBook
 
-mdBook ist ein Tool von Rust, um Bücher bzw. Dokumentationen über Markdown-Files zu schreiben.
+mdBook ist ein Tool von Rust, um aus Markdown-Files eine Dokumentationen zu generieren.
 
 #### Warum RedoxOS Book
 
 - Hier befindet sich die Dokumentation von Redox Os, welche sehr wichtig für das Verständnis und die Weiterarbeit am Projekt ist.
-- Gerade an dieser Stelle wird in vielen Open Source-Projekten gerne Zeit gespart; dies rächt sich aber zuverlässig mit steigendem Projektalter (siehe https://en.wikipedia.org/wiki/Technical_debt).
+- Gerade an dieser Stelle wird in vielen Open Source-Projekten gerne Zeit gespart. Dies rächt sich aber zuverlässig mit steigendem Projektalter (siehe https://en.wikipedia.org/wiki/Technical_debt).
 
 Daher werde ich meine initialen Anstrengungen darauf konzentrieren, am Buch nachzubessern.
 
 #### Was sind extra/coreutils
+
 - https://www.gnu.org/software/coreutils/
 - GNU coreutils sind eine Sammlung an Kommandozeilen-Helfern
 - RedoxOS orientiert sich allerdings eher an den BSD coreutils (FIXME add link), welche als Paradigma BSD-typisch deutlich minimaler entwickelt werden
