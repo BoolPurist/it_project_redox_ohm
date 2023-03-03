@@ -30,19 +30,46 @@ auch für den Bericht interessant sein.
 
 ### Konkrete Ziele in Ion Shell
 
-- Es gibt folgende Issues, die ich auf jeden Fall versuchen will zu lösen.
-  - "Ion crashes after pressing `enter` key frequently" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1017 .
-  - "Ci is broken with current base image redoxos/redoxer from docker hub." unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1020 .
-    Continuous Integration schlägt bei jeden Commit/Pull Request fehl. Ich möchte diese Pipelines wieder lauffähig machen.
-  - "Implement set -o pipefail" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1005 .
-  - "Is it possible to return arrays from functions?" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1010 .
-  - "Parameter Substitution on arrays" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1001 .
-    Vermutlich auch für Strings.
-    Scheint so, als wurde es immer noch nicht von der Person, die es vorgeschlagen hat, implementiert. 
+Allgemeinen möchte ich den  Scheme support in Ion auf Redox Os einbringen. 
+Beispiel nicht nur "file:" sondern auch Schemes wie "disk:", "acpi:" als Beispiel.
+Das ist mein Hauptfokus. 
+
+#### Was sind Schemes in Redox Os
+
+Schemes sind eine eigene Sache aus dem Haus von in Redox Os.
+Schemes kann man sich wie URLs vorstellen um Resourcen in Redox Os zu adressieren.
+
+Es gibt zum Beispiel auch das File Scheme welches Dateien adressiert.
+Ein Pfad zu einer Datei "/home/user" ist dann gleich "file:home/user" in dem File Scheme.
+
+Jeder Pfad eines Schemes ist mit den Namen des Schemes am Anfange beschrieben "file:...", "acpi:.."
+Hier ist die Motivation, dass man zum Beispiel Geräte nicht wie Linux durch eine Datei anspricht 
+sondern es über eine URL/Pfad nach einem bestimmten Scheme. Fiktives Beispiel: "driver:keyboard" spricht das 
+Keyboard an. 
+
+Interessant hierbei ist, dass auch wenn die URLs eines Schemes wie ein Pfad in einem Baum aussehen mag, 
+kann die eigentliche Verwaltung dieser Resourcen unter einen Scheme völlig anderes organisiert sein.
+So könnten Resourcen eines fiktiver Scheme wie "list:aa/bb" statt dessen im Hintergrund in einer Liste verwaltet werden.
+
+### Abseits von der Implementierung von Scheme Support in Ion
+
+Danach/Nebenbei möchte ich versuchen folgende Issues abzuarbeiten.
+
+- "Ion crashes after pressing `enter` key frequently" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1017 .
+- "Ci is broken with current base image redoxos/redoxer from docker hub." unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1020 .
+  Continuous Integration schlägt bei jeden Commit/Pull Request fehl. Ich möchte diese Pipelines wieder lauffähig machen.
+- "Implement set -o pipefail" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1005 .
+- "Is it possible to return arrays from functions?" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1010 .
+- "Parameter Substitution on arrays" unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1001 .
+  Vermutlich auch für Strings.
+  Scheint so, als wurde es immer noch nicht von der Person, die es vorgeschlagen hat, implementiert. 
+- Fehlermeldungen in Ion sollten auch die Zeile mit angeben, wo der Fehler gefunden wurde unter https://gitlab.redox-os.org/redox-os/ion/-/issues/1022
+
+Restliche Dinge, die nicht noch nicht als Issues feststehen
+
 - Umsetzung der Polish Notation und intersect builtin unter https://doc.redox-os.org/ion-manual/control/01-conditionals.html .
-- Fehlermeldungen in Ion sollten auch die Zeile mit angeben, wo der Fehler gefunden wurde. 
 - Wenn eine noch nicht deklarierte Variable referenziert wird, 
-  sollte auch der Name der nicht vorhandene Variable in der Fehlermeldung angezeigt werden.
+  sollte auch der Name der nicht vorhandene Variable in der Fehler Meldung angezeigt werden.
 
 ### Bisherige Ergebnisse bei der Einarbeitung
 
@@ -56,18 +83,17 @@ https://github.com/BoolPurist/it_project_redox_ohm/blob/main/archievements.md
 ## Florian Meißner
 
 ## Phillip Wagener
+
 Vor allem möchte ich im mdBook meinen Teil zum Projekt beitragen.
 Link zum Repository: (https://gitlab.redox-os.org/redox-os/book)
 
-
 Zudem finde ich das Reposotory von extrautils sehr interessant.
-Link zum Repository: (https://gitlab.redox-os.org/redox-os/extrautils)
-hier werde ich mir einige ToDos raussuchen, um diese umzusetzen.
+Link zum Repository: (https://gitlab.redox-os.org/redox-os/extrautils).
+Hier werde ich mir einige ToDos raussuchen, um diese umzusetzen.
 
 ### Was ist mdBook
 
-mdBook ist ein Tool von Rust um Bücher bzw. Dokumentationen über Markdown-Files zu schreiben.
-
+mdBook ist ein Tool, geschrieben in Rust, um Bücher bzw. Dokumentationen mit Hilfe von Markdown-Files zu schreiben.
 
 ### Warum mdBook
 - Hier befindet sich die Dokumentation von Redox Os, welche sehr wichtig für das Verständnis und die Weiterarbeit am Projekt ist.
