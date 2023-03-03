@@ -10,13 +10,6 @@ Ansonsten finde ich noch den Bereich Coreutils interessant.
 Der ist jedoch optional und nur relevant falls ich alle Ziele im Bezug zu Ion umgesetzt habe. 
 Link zu Coreutils https://gitlab.redox-os.org/redox-os/coreutils .
 
-### Was ist Ion 
-
-Ion ist eine Shell, die es erlaubt, Kommandos in der eigenen Ion Skriptsprache auszuführen.
-Ion kann nicht nur zum Scripten verwendet werden, sondern 
-auch in einer interaktiven Session innerhalb eines Terminal-Emulators genutzt werden.
-Es gibt auch ein Online-Manual unter https://doc.redox-os.org/ion-manual/ zu Ion.
-
 ### Warum Ion Shell
 
 - Die Ion Skriptsprache ist stark von Rust inspiriert. 
@@ -28,7 +21,14 @@ Es gibt auch ein Online-Manual unter https://doc.redox-os.org/ion-manual/ zu Ion
 Die Untersuchung von dem eingebauten Parser innerhalb der Ion Shell könnte 
 auch für den Bericht interessant sein.
 
-### Konkrete Ziele in Ion Shell
+#### Was ist Ion 
+
+Ion ist eine Shell, die es erlaubt, Kommandos in der eigenen Ion Skriptsprache auszuführen.
+Ion kann nicht nur zum Scripten verwendet werden, sondern 
+auch in einer interaktiven Session innerhalb eines Terminal-Emulators genutzt werden.
+Es gibt auch ein Online-Manual unter https://doc.redox-os.org/ion-manual/ zu Ion.
+
+#### Konkrete Ziele in Ion Shell
 
 Allgemeinen möchte ich den  Scheme support in Ion auf Redox Os einbringen. 
 Beispiel nicht nur "file:" sondern auch Schemes wie "disk:", "acpi:" als Beispiel.
@@ -51,7 +51,7 @@ Interessant hierbei ist, dass auch wenn die URLs eines Schemes wie ein Pfad in e
 kann die eigentliche Verwaltung dieser Resourcen unter einen Scheme völlig anderes organisiert sein.
 So könnten Resourcen eines fiktiver Scheme wie "list:aa/bb" statt dessen im Hintergrund in einer Liste verwaltet werden.
 
-### Abseits von der Implementierung von Scheme Support in Ion
+#### Abseits von der Implementierung von Scheme Support in Ion
 
 Danach/Nebenbei möchte ich versuchen folgende Issues abzuarbeiten.
 
