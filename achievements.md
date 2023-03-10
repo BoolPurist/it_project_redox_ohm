@@ -8,11 +8,10 @@ inspiration, examples, etc.
 
 ### Opened pull requests
 
-- [fix(version): adjusted other places for minimal used rust version to 1.56.0](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1241)
-- [docs: notes and link to ion plugins](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1240)
-
 ### Merged pull requests
 
+- [fix(version): adjusted other places for minimal used rust version to 1.56.0](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1241)
+- [docs: notes and link to ion plugins](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1240)
 - [fix(redox): file:/ does not break expansion in ion shell anymore](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1239)
 - [fix: partial CI fix and fix compiler error for "make tests"](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests)
 - [implementation of subst method for arrays](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1238)
@@ -28,6 +27,7 @@ inspiration, examples, etc.
 
 ### Participated in issues
 
+- [Replace and replace_regex should allow empty strings as parameters](https://gitlab.redox-os.org/redox-os/ion/-/issues/1028)
 - [Aliases should not be dropped at the end of the scope](https://gitlab.redox-os.org/redox-os/ion/-/issues/1026)
 - [Parameter Substitution on arrays](https://gitlab.redox-os.org/redox-os/ion/-/issues/1001)
 
