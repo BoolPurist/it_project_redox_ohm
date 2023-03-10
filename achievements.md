@@ -22,7 +22,11 @@ inspiration, examples, etc.
 - [docs: replaced obsolete invitation to chat by sending an email with the link to the matrix server.](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1235)
 - [docs: describes feature for executing commands at start via initrc](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1234)
 
-### Participated issues
+### Participated in pull requests 
+
+- [Make aliases global](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1242)
+
+### Participated in issues
 
 - [Aliases should not be dropped at the end of the scope](https://gitlab.redox-os.org/redox-os/ion/-/issues/1026)
 - [Parameter Substitution on arrays](https://gitlab.redox-os.org/redox-os/ion/-/issues/1001)
