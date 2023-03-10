@@ -8,10 +8,12 @@ inspiration, examples, etc.
 
 ### Opened pull requests
 
-- [fix(redox): file:/ does not break expansion in ion shell anymore](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1239)
+- [fix(version): adjusted other places for minimal used rust version to 1.56.0](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1241)
+- [docs: notes and link to ion plugins](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1240)
 
 ### Merged pull requests
 
+- [fix(redox): file:/ does not break expansion in ion shell anymore](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1239)
 - [fix: partial CI fix and fix compiler error for "make tests"](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests)
 - [implementation of subst method for arrays](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1238)
 - [fix: removed/ignore tests/fn-root-vars.out as it is recreated by run_example.sh every time](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1236)
@@ -20,8 +22,14 @@ inspiration, examples, etc.
 - [docs: replaced obsolete invitation to chat by sending an email with the link to the matrix server.](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1235)
 - [docs: describes feature for executing commands at start via initrc](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1234)
 
+### Participated issues
+
+- [Aliases should not be dropped at the end of the scope](https://gitlab.redox-os.org/redox-os/ion/-/issues/1026)
+- [Parameter Substitution on arrays](https://gitlab.redox-os.org/redox-os/ion/-/issues/1001)
+
 ### Opened Issues
 
+- [Job linux:stable fails with compile error in step make tests](https://gitlab.redox-os.org/redox-os/ion/-/issues/1027)
 - [ternary operator for arrays/strings](https://gitlab.redox-os.org/redox-os/ion/-/issues/1023)
 - [null-coalescing operator](https://gitlab.redox-os.org/redox-os/ion/-/issues/1024)
 - [Show line number in error message where an error occures](https://gitlab.redox-os.org/redox-os/ion/-/issues/1022)
