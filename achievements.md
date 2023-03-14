@@ -8,6 +8,11 @@ inspiration, examples, etc.
 
 ### Opened pull requests
 
+- [fix: ignores always overwritten doc builtin file and fixes wrong formatting at generating doc builtin file](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1246)
+- [docs: adding commands to open manual in browser and removed not needed destination directory](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1245)
+- [fix: removed not used flag field](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1244)
+- [docs: added section on how to create integration tests and how they work](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1243)
+
 ### Merged pull requests
 
 - [fix(version): adjusted other places for minimal used rust version to 1.56.0](https://gitlab.redox-os.org/redox-os/ion/-/merge_requests/1241)
@@ -33,6 +38,7 @@ inspiration, examples, etc.
 
 ### Opened Issues
 
+- [Locally generated builtin file for ion manual does not show a man page section for all builtins of ion](https://gitlab.redox-os.org/redox-os/ion/-/issues/1029)
 - [Job linux:stable fails with compile error in step make tests](https://gitlab.redox-os.org/redox-os/ion/-/issues/1027)
 - [ternary operator for arrays/strings](https://gitlab.redox-os.org/redox-os/ion/-/issues/1023)
 - [null-coalescing operator](https://gitlab.redox-os.org/redox-os/ion/-/issues/1024)
